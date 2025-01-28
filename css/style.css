@@ -18,18 +18,19 @@ body {
 .add-task {
     background-color: #14aaf5;
     color: #ffffff;
-    border-radius: 100px;
-    border: 68px 27px;
-    text-align: left;
+    padding: 4px 8px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-left: 10px;
 }
 
 .add-section {
     background-color: #ffffff;
     color: gray;
+    padding: 4px 8px;
     border-radius: 5px;
-    border: 68px 27px;
-    text-align: left;
-    border-style: solid #d1d7db;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 .container {
@@ -114,3 +115,4 @@ h1 {
 
 .label.sales {
     background-color: #8bc34a;
+}
