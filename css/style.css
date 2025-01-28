@@ -1,53 +1,116 @@
-*{
-     font-family: Arial;
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
 }
 
-/**stile di header**/
-
-#logo{
+#logo {
     height: 50px;
     width: 50px;
 }
 
-#titolo{
+#titolo {
     font-size: 50px;
     font-weight: bold;
 }
 
-/**stile del corpo**/
-
-.container{
-    background-color:#c7c7c7;
-    background-size: contain;
-    text-align: center;
-    padding: auto;
-    margin: auto;
-
-}
-
-
-
-.task{
+.add-task {
     background-color: #14aaf5;
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 100px;
+    border: 68px 27px;
     text-align: left;
-    font-size: 20px;
-    border-style: solid #14aaf5;
-    padding: 5px 8px 8px 5px;
-    margin: 10px 5px 10px 5px;
 }
 
-.section{
+.add-section {
     background-color: #ffffff;
-        color: #d1d7db;
-        border-radius: 15px;
-        text-align: left;
-        font-size: 20px;
-        border-style: solid #717171;
-        margin: 10px 5px 10px 5px;
-        padding: 5px 8px 8px 5px;
+    color: gray;
+    border-radius: 5px;
+    border: 68px 27px;
+    text-align: left;
+    border-style: solid #d1d7db;
 }
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.button-container {
+    margin: 10px 0;
+}
+
+.button-container{
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.section {
+    margin-top: 20px;
+    text-align: left, center;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.task {
+    list-style: none;
+    padding: 0;
+}
+
+.task li {
+    display: list-item;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.task li .status {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.label {
+    background-color: #007bff;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.label.q1-goals {
+    background-color: #9b59b6;
+}
+
+.label.recruiting {
+    background-color: #2ecc71;
+}
+
+.label.mobile {
+    background-color: #f39c12;
+}
+
+.label.website {
+    background-color: #e91e63;
+}
+
+.label.sales {
+    background-color: #8bc34a;
