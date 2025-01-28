@@ -2,3 +2,12 @@
     font-family: Arial;
 }
 
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+#titolo{
+    font-size: 50px;
+    font-weight: bold;
+}
