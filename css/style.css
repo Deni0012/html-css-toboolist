@@ -21,27 +21,33 @@
 
 .container{
     background-color:#c7c7c7;
+    background-size: contain;
     text-align: center;
+    padding: auto;
+    margin: auto;
 
 }
 
-.stile-corpo{
-    background-color: #ffffff;
-}
+
 
 .task{
     background-color: #14aaf5;
     color: #ffffff;
-    border-radius: 100px;
-    border: 68px 27px;
+    border-radius: 15px;
     text-align: left;
+    font-size: 20px;
+    border-style: solid #14aaf5;
+    padding: 5px 8px 8px 5px;
+    margin: 10px 5px 10px 5px;
 }
 
 .section{
     background-color: #ffffff;
         color: #d1d7db;
-        border-radius: 5px;
-        border: 68px 27px;
+        border-radius: 15px;
         text-align: left;
-        border-style: solid #d1d7db;
+        font-size: 20px;
+        border-style: solid #717171;
+        margin: 10px 5px 10px 5px;
+        padding: 5px 8px 8px 5px;
 }
