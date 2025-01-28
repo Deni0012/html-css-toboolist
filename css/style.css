@@ -1,6 +1,11 @@
 *{
-    font-family: Arial;
+     font-family: Arial;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
+
+/**stile di header**/
 
 #logo{
     height: 50px;
@@ -10,4 +15,33 @@
 #titolo{
     font-size: 50px;
     font-weight: bold;
+}
+
+/**stile del corpo**/
+
+.container{
+    background-color:#c7c7c7;
+    text-align: center;
+
+}
+
+.stile-corpo{
+    background-color: #ffffff;
+}
+
+.task{
+    background-color: #14aaf5;
+    color: #ffffff;
+    border-radius: 100px;
+    border: 68px 27px;
+    text-align: left;
+}
+
+.section{
+    background-color: #ffffff;
+        color: #d1d7db;
+        border-radius: 5px;
+        border: 68px 27px;
+        text-align: left;
+        border-style: solid #d1d7db;
 }
