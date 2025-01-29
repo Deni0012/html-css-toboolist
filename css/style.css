@@ -1,8 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f6f8f9;
     margin: 0;
     padding: 20px;
+}
+
+header{
+    display: inline;
 }
 
 #logo {
@@ -55,13 +59,11 @@ body {
 
 .button-container{
     background-color: white;
-    color: white;
-    border: none;
+    color: black;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
-    margin-right: 5px;
-    text-align: center;
+    margin-right: 50px;
 }
 
 .section {
