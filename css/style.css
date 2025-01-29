@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* stile del corpo */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
@@ -26,6 +28,8 @@ header{
     font-weight: bold;
 }
 
+/* stile delle task */
+
 .add-task {
     background-color: #14aaf5;
     color: #ffffff;
@@ -38,6 +42,8 @@ header{
 .add-section {
     background-color: #ffffff;
     color: gray;
+    border-color: gray;
+    border-style: outset;
     padding: 4px 8px;
     border-radius: 5px;
     font-size: 12px;
